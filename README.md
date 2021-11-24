@@ -77,3 +77,7 @@ Apply json patch to a json object, and return the resulting json object.
  { "user": { "firstName": "Leonardo", "lastName": "da Vinci" } }
  ```
 
+##Testing
+ 1. Test for authentification and json patching with [Mocha](https://mochajs.org/) _'it should accept a public image url and return a resized image'_ returns a promise which is currently not being handled properly.
+ 2. _Dockerfile_ has been fully tested.
+ 3. _Istanbul_ coverage working as expected.
