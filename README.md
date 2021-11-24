@@ -78,6 +78,6 @@ Apply json patch to a json object, and return the resulting json object.
  ```
 
 ## Testing
- 1. Test for authentification and json patching with [Mocha](https://mochajs.org/)
+ 1. Test for authentification and json patching with [Mocha](https://mochajs.org/).API should reject invalid request inputs
  2. _Dockerfile_ has been fully tested.
  3. _Istanbul_ coverage working as expected.
