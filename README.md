@@ -22,12 +22,12 @@ To get up and running:
 
 **1.** Clone the repo.
 ```
-git clone https://github.com/twumm/stateless-microservice-hackerbay.git
+git clone https://github.com/pedropinchez/microcontroller.git
 ```
 
 **2.**  ```cd``` into repo. Use the same directory name(below) if you do not change it.
 ```
-cd stateless-microservice-hackerbay
+cd yourprojectfolder
 ```
 
 **3.**  Setup the application by installing its dependencies with
