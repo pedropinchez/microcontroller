@@ -1,6 +1,6 @@
 # microcontroller@Interview Task 2
 
-A simple stateless microservice in Nodejs, with two major functionalities -  Authentication JSON patching And a dashboard to display the process and data. 
+A simple stateless microservice in Nodejs, with two major functionalities -  Authentication JSON patching And a dashboard to display the process and data. The project contains additional image thumb generation.
 
 # Public end points
 
