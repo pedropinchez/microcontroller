@@ -11,3 +11,31 @@ arbitrary username/password pair Treat it as a mock authentication service and a
 The JWT obtained in the “Login” endpoint is attached to each request header. If the JWT is missing or invalid, these endpoints should reject the request with the appropriate message to the user.
 
  Json Patch Request body contains a JSON object and a JSON patch object (http://jsonpatch.com/). Apply the json patch to the json object, and return the resulting json object.
+
+
+
+## Setup
+
+The API requires [Node.js](https://nodejs.org/en/download/)
+
+To get up and running: 
+
+**1.** Clone the repo.
+```
+git clone https://github.com/twumm/stateless-microservice-hackerbay.git
+```
+
+**2.**  ```cd``` into repo. Use the same directory name(below) if you do not change it.
+```
+cd stateless-microservice-hackerbay
+```
+
+**3.**  Setup the application by installing its dependencies with
+```
+npm install
+```
+
+**4.**  The app gets up and running on port 3000 with ```npm start```.
+
+**5.**  **Important** Create a ```.env``` file and set ```jwtSecret``` to any secret phrase you want.
+ 
